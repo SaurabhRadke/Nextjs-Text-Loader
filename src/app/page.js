@@ -41,7 +41,7 @@ export default function Home() {
       <div className="loading-screen">
         <div className="loader absolute top-[50%] left-[50%] w-[20rem] sm:w-[23rem] flex h-[4rem] -translate-x-[50%] -translate-y-[50%]">
           <div className="loader-1 bar h-full relative bg-white w-[0%] "></div>
-          <div className="loader-2 bar h-full relative  w-[2%] bg-white"></div>
+          <div className="loader-2 bar h-full relative  w-[0%] bg-white"></div>
         </div>
         <div className="counter fixed left-[2rem] bottom-[2rem] overflow-hidden text-white border-zinc-900 h-[80px] flex text-8xl font-semibold ">
 
